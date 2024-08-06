@@ -1,0 +1,52 @@
+.card-header {
+	background-color: #212529;
+}
+div#accordionExample.accordion button.btn {
+	color: #fed136;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+.nav-pills .nav-link {
+    font-weight: bold;
+	text-transform: uppercase;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #212529;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fed136;
+}
+li.nav-item a{
+	color: #212529;
+}
+ul.dashed {
+	list-style: none;
+	padding-left: 2em;
+	font-style: italic;
+}
+ul.dashed > li {
+	margin-left: 15px;  
+}
+/* Prevent nested li's from getting messed up */
+ul.dashed > li::before {
+    content: "- ";
+    margin-left: -15px;
+}
+h5.card-header{
+	color: #fed136;
+	font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+}
+.btn-primary {
+	background-color: #212529;
+	border-color: #212529;
+	color: #fed136;
+}
+a {
+	color: #c3272b;
+}
